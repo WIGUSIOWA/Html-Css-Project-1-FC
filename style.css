@@ -22,8 +22,17 @@ nav {
 }
 nav .container .brand {
 	display: flex;
+	color: #ffffff;
+	padding: 10px auto 10px 94px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
 }
 nav .container .list-items {
 	display: flex;
-	gap: 30px;
+	gap: 46px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #f1f1f1;
 }
