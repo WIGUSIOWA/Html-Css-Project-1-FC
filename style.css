@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: rgb(119, 208, 119);
+	background-color: rgb(240, 244, 240);
 	font-family: "Roboto", sans-serif;
 	color: aliceblue;
 }
@@ -29,10 +29,42 @@ nav .container .brand {
 	line-height: 21px;
 }
 nav .container .list-items {
+	padding: 30px;
 	display: flex;
 	gap: 46px;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
 	color: #f1f1f1;
+}
+
+.go-button {
+	cursor: pointer;
+}
+.disabled-button {
+	cursor: not-allowed;
+}
+header {
+	width: 100vw;
+	height: 50vh;
+	position: relative;
+}
+header img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+header .shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	gap: 50px;
 }
