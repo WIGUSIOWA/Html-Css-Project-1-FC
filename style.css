@@ -7,21 +7,32 @@ html {
 }
 
 body {
+	font-size: 20px;
+	font-weight: 400;
 	font-family: "Roboto", sans-serif;
 	background-color: ivory;
 	color: #565151;
 }
+h1 {
+	font-size: 36px;
+	font-weight: 800;
+}
 
 h2 {
-	font-size: 36px;
+	font-size: 32px;
 	font-weight: 600;
 	color: #565151;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 20px;
+}
+
+p {
+	font-size: 22px;
+	font-weight: 400;
 }
 
 section {
@@ -215,6 +226,7 @@ footer {
 	gap: 40px;
 }
 .mentoring {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -236,4 +248,14 @@ footer {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+}
+
+.offer .container .offer-boxes .mentoring .circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: magenta;
+	position: absolute;
+	top: -15px;
+	left: -15px;
 }
