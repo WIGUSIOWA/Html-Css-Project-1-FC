@@ -1,19 +1,22 @@
 * {
 	box-sizing: border-box;
-	/* font-family: "Roboto", sans-serif; */
+	
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
 body {
-	background-color: rgb(240, 244, 240);
 	font-family: "Roboto", sans-serif;
+	background-color: ivory;
+	color: #565151;
 }
+
 h2 {
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: 600;
+	color: #565151;
 }
 h3 {
 	font-size: 18px;
@@ -32,13 +35,11 @@ section h2 {
 nav {
 	width: 100%;
 	height: 50px;
-	background-color: #cc912b;
+	background-color: goldenrod;
 	display: flex;
 	position: sticky;
 	top: 0;
 	left: 0;
-	
-	
 }
 
 /* NIE DOTYKAĆ tego KONTENERA!!!!!!! */
@@ -55,7 +56,7 @@ nav .container {
 
 nav .container .brand {
 	display: flex;
-	color: #ffffff;
+	color: #fff;
 	padding: 10px auto 10px 94px;
 	font-weight: 700;
 	font-size: 18px;
@@ -67,7 +68,7 @@ nav .container .list-items {
 	gap: 46px;
 	font-weight: 400;
 	font-size: 18px;
-	color: #f1f1f1;
+	color: white;
 }
 
 .go-button {
@@ -142,14 +143,10 @@ header p {
 	cursor: pointer;
 }
 
-main {
-	background-color: #f1f1f1;
-}
-
 .experts-list {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 10px;
 }
 
 .expert {
@@ -172,4 +169,47 @@ main {
 	margin: 50px;
 }
 
-sect
+.offer {
+	background-color: #405d78;
+}
+
+.offer .container .offer-boxes {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 50px;
+	justify-content: center;
+}
+
+.offer .container .offer-boxes div {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(255, 198, 55);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	color: #565151;
+}
+.learning {
+	text-align: center;
+}
+
+.offer h2 {
+	color: ivory;
+	padding-top: 50px;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	color:#a0a5aa
+}
+.footer-list {
+	display: flex;
+	gap: 40px;
+}
