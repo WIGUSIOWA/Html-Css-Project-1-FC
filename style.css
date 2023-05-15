@@ -1,17 +1,44 @@
 * {
 	box-sizing: border-box;
+	/* font-family: "Roboto", sans-serif; */
+}
+
+html{
+	scroll-behavior: smooth;
 }
 
 body {
 	background-color: rgb(240, 244, 240);
 	font-family: "Roboto", sans-serif;
 }
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+section {
+	margin: 50px 0;
+}
+
+section h2 {
+	margin: 50px;
+}
 
 nav {
 	width: 100%;
 	height: 50px;
-	background-color: #b38d04;
+	background-color: #cc912b;
 	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	
+	
 }
 
 /* NIE DOTYKAĆ tego KONTENERA!!!!!!! */
@@ -98,6 +125,7 @@ header p {
 }
 
 .cta-button {
+	width: fit-content;
 	background-color: transparent;
 	border: 3px solid white;
 	color: white;
@@ -113,3 +141,35 @@ header p {
 	color: black;
 	cursor: pointer;
 }
+
+main {
+	background-color: #f1f1f1;
+}
+
+.experts-list {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.expert {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 100px;
+}
+
+.reversed {
+	flex-direction: row-reverse;
+}
+
+.expert img {
+	width: 25%;
+	border-radius: 50%;
+	border: 2px solid goldenrod;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+	margin: 50px;
+}
+
+sect
