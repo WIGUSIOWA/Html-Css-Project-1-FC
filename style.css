@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	
 }
 
 html {
@@ -147,14 +146,12 @@ header p {
 .experts-list {
 	display: flex;
 	flex-direction: column;
-
 }
 
 .expert {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-
 }
 
 .reversed {
@@ -172,7 +169,6 @@ header p {
 
 .offer {
 	background-color: #405d78;
-	
 }
 
 .offer .container .offer-boxes {
@@ -211,33 +207,32 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px;
-	color:#a0a5aa
+	color: #a0a5aa;
 }
 
 .footer-list {
 	display: flex;
 	gap: 40px;
 }
-.mentoring{
+.mentoring {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.learning{
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-
-}
-
-.horse-riding{
+.learning {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.job{
+.horse-riding {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.job {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
