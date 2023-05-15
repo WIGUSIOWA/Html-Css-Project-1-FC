@@ -18,6 +18,7 @@ h2 {
 	font-weight: 600;
 	color: #565151;
 }
+
 h3 {
 	font-size: 18px;
 	font-weight: 700;
@@ -29,7 +30,7 @@ section {
 }
 
 section h2 {
-	margin: 50px;
+	margin: 30px;
 }
 
 nav {
@@ -146,14 +147,14 @@ header p {
 .experts-list {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+
 }
 
 .expert {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap: 100px;
+
 }
 
 .reversed {
@@ -171,6 +172,7 @@ header p {
 
 .offer {
 	background-color: #405d78;
+	
 }
 
 .offer .container .offer-boxes {
@@ -187,16 +189,18 @@ header p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-weight: 500;
+	font-weight: 600;
 	color: #565151;
 }
+
 .learning {
 	text-align: center;
 }
 
 .offer h2 {
 	color: ivory;
-	padding-top: 50px;
+	padding: 50px;
+	font-size: 30px;
 }
 
 footer {
@@ -209,7 +213,32 @@ footer {
 	padding: 30px;
 	color:#a0a5aa
 }
+
 .footer-list {
 	display: flex;
 	gap: 40px;
+}
+.mentoring{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.learning{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+
+.horse-riding{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.job{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
