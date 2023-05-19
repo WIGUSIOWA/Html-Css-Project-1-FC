@@ -13,6 +13,9 @@ body {
 	background-color: ivory;
 	color: #565151;
 }
+a {
+	color: white;
+}
 h1 {
 	font-size: 36px;
 	font-weight: 800;
@@ -28,6 +31,9 @@ h3 {
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 20px;
+}
+h4 {
+	color: #405d78;
 }
 
 p {
@@ -57,6 +63,7 @@ nav {
 .container {
 	width: 960px;
 	margin: 0 auto;
+	padding: 30px 0;
 }
 
 nav .container {
@@ -121,17 +128,17 @@ header img {
 }
 
 header h1 {
-	width: 578px;
 	font-weight: 700;
 	font-size: 36px;
 	color: #fff;
+	padding-bottom: 50px;
 }
 
-header p {
+.header-promiss {
 	position: absolute;
-	width: 300px;
+	padding-bottom: 50px;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 26px;
 	color: #fff;
 	letter-spacing: 3px;
 }
@@ -142,8 +149,8 @@ header p {
 	border: 3px solid white;
 	color: white;
 	padding: 10px 60px;
-	font-size: 18px;
-	letter-spacing: 3px;
+	font-size: 26px;
+	letter-spacing: 5px;
 	font-weight: 700;
 	transition: 1s;
 }
@@ -198,6 +205,12 @@ header p {
 	align-items: center;
 	font-weight: 600;
 	color: #565151;
+	/* transform: scale(1.05); */
+}
+
+.offer-boxes div:hover {
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 .learning {
@@ -225,6 +238,7 @@ footer {
 	display: flex;
 	gap: 40px;
 }
+
 .mentoring {
 	position: relative;
 	display: flex;
