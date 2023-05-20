@@ -44,6 +44,10 @@ p {
 	font-weight: 400;
 }
 
+section {
+	padding: 50px 0;
+}
+
 section h2 {
 	margin: 50px 0;
 }
@@ -63,7 +67,6 @@ nav {
 .container {
 	width: 960px;
 	margin: 0 auto;
-
 }
 
 nav .container {
@@ -125,6 +128,7 @@ header img {
 	justify-content: center;
 	text-align: left;
 	gap: 100px;
+	
 }
 
 header h1 {
@@ -135,7 +139,7 @@ header h1 {
 }
 
 .header-promiss {
-	position: absolute;
+
 	padding-bottom: 50px;
 	font-weight: 700;
 	font-size: 26px;
@@ -206,7 +210,6 @@ header h1 {
 	align-items: center;
 	font-weight: 600;
 	color: #565151;
-	/* transform: scale(1.05); */
 }
 
 .offer-boxes div:hover {
@@ -220,7 +223,7 @@ header h1 {
 
 .offer h2 {
 	color: ivory;
-	padding: 50px;
+
 	font-size: 30px;
 }
 
@@ -273,4 +276,12 @@ footer {
 	position: absolute;
 	top: -15px;
 	left: -15px;
+}
+
+.footer-paragraph{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
