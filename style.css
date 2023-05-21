@@ -63,7 +63,6 @@ nav {
 	z-index: 1;
 }
 
-/* NIE DOTYKAĆ tego KONTENERA!!!!!!! */
 .container {
 	width: 960px;
 	margin: 0 auto;
@@ -221,7 +220,6 @@ header h1 {
 
 .offer h2 {
 	color: ivory;
-
 	font-size: 30px;
 }
 
