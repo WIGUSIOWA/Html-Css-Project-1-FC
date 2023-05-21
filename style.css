@@ -126,9 +126,8 @@ header img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: left;
+	text-align: center;
 	gap: 100px;
-	
 }
 
 header h1 {
@@ -139,7 +138,6 @@ header h1 {
 }
 
 .header-promiss {
-
 	padding-bottom: 50px;
 	font-weight: 700;
 	font-size: 26px;
@@ -278,10 +276,10 @@ footer {
 	left: -15px;
 }
 
-.footer-paragraph{
-
+footer .container {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-
+	gap: 200px;
 }
+
+
+
