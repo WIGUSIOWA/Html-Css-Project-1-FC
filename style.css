@@ -101,7 +101,7 @@ nav .container .list-items {
 
 header {
 	width: 100%;
-	height: calc(100vh- 50px);
+	height: calc(100vh - 50px);
 	position: relative;
 }
 
@@ -125,8 +125,7 @@ header img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: center;
-	gap: 100px;
+	gap: 20px;
 }
 
 header h1 {
@@ -278,6 +277,3 @@ footer .container {
 	display: flex;
 	gap: 200px;
 }
-
-
-
