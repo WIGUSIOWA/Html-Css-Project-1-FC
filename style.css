@@ -15,7 +15,7 @@ body {
 	color: #565151;
 }
 
-a {
+.go-button {
 	color: white;
 }
 
@@ -37,7 +37,6 @@ h3 {
 }
 
 p {
-	font-size: 24px;
 	font-weight: 400;
 	color: #565151;
 }
@@ -53,7 +52,7 @@ p {
 }
 
 section h2 {
-	margin: 50px 0;
+	padding: 50px 0;
 }
 
 nav {
@@ -172,12 +171,13 @@ header h1 {
 
 .expert {
 	display: flex;
-	flex-direction: row;
+	text-align: row;
 	align-items: center;
 }
 
 .reversed {
 	flex-direction: row-reverse;
+	object-position: right;
 }
 
 .expert img {
@@ -189,9 +189,13 @@ header h1 {
 	padding: 50px;
 }
 
+.name-Amelia {
+	text-align: end;
+}
+
 .offer {
 	background-color: #405d78;
-	padding: 20px;
+	padding-bottom: 65px;
 }
 
 .offer .container .offer-boxes {
@@ -216,6 +220,10 @@ header h1 {
 .offer-boxes div:hover {
 	transform: scale(1.05);
 	cursor: pointer;
+}
+
+div .offer-boxes {
+	padding-top: 30px;
 }
 
 .offer-boxes p {
@@ -254,25 +262,13 @@ footer {
 	gap: 20px;
 }
 
-.learning {
+.learning-riding-job {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.horse-riding {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-}
-
-.job {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-}
-
-.offer .container .offer-boxes .mentoring .circle {
+.offer .offer-boxes .mentoring .circle {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
@@ -284,12 +280,17 @@ footer {
 
 footer .container {
 	display: flex;
-	gap: 200px;
+	justify-content: space-between;
 }
 
-.instagram {
+.footer-paragraph {
+	font-size: 18px;
+	color: #fff;
+}
+
+.footer-list {
+	display: flex;
+	gap: 18px;
 	width: 18px;
 	height: 18px;
-	gap: 18px;
-	/* display: flex; */
 }
