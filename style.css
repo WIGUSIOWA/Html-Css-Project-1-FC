@@ -25,8 +25,8 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
-	font-weight: 600;
+	font-size: 36px;
+	font-weight: 700;
 	color: #565151;
 }
 
@@ -35,17 +35,21 @@ h3 {
 	font-weight: 700;
 	margin-bottom: 20px;
 }
-h4 {
-	color: #405d78;
-}
 
 p {
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 400;
+	color: #565151;
 }
 
-section {
-	padding: 50px 0;
+.par-Agnes {
+	font-size: 18px;
+	color: #565151;
+}
+
+.par-Amelia {
+	text-align: right;
+	font-size: 18px;
 }
 
 section h2 {
@@ -77,9 +81,9 @@ nav .container {
 nav .container .brand {
 	display: flex;
 	color: #fff;
-	padding: 10px auto 10px 94px;
+	padding: 10px 0;
 	font-weight: 700;
-	font-size: 26px;
+	font-size: 18px;
 }
 
 nav .container .list-items {
@@ -148,8 +152,8 @@ header h1 {
 	background-color: transparent;
 	border: 3px solid white;
 	color: white;
-	padding: 10px 60px;
-	font-size: 26px;
+	padding: 14px 60px;
+	font-size: 18px;
 	letter-spacing: 5px;
 	font-weight: 700;
 	transition: 1s;
@@ -179,21 +183,21 @@ header h1 {
 .expert img {
 	width: 25%;
 	border-radius: 50%;
-	border: 2px solid goldenrod;
 	object-position: top;
 	object-fit: cover;
 	aspect-ratio: 1/1;
-	margin: 50px;
+	padding: 50px;
 }
 
 .offer {
 	background-color: #405d78;
+	padding: 20px;
 }
 
 .offer .container .offer-boxes {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	gap: 50px;
+	gap: 60px;
 	justify-content: center;
 }
 
@@ -206,11 +210,16 @@ header h1 {
 	align-items: center;
 	font-weight: 600;
 	color: #565151;
+	transition: 1s;
 }
 
 .offer-boxes div:hover {
 	transform: scale(1.05);
 	cursor: pointer;
+}
+
+.offer-boxes p {
+	color: #405d78;
 }
 
 .learning {
@@ -276,4 +285,11 @@ footer {
 footer .container {
 	display: flex;
 	gap: 200px;
+}
+
+.instagram {
+	width: 18px;
+	height: 18px;
+	gap: 18px;
+	/* display: flex; */
 }
