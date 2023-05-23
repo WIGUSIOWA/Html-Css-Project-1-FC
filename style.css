@@ -8,11 +8,7 @@ html {
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-
 	background-color: ivory;
-	color: #565151;
 }
 
 .go-button {
@@ -31,24 +27,15 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
 
 p {
+	font-size: 18px;
 	font-weight: 400;
 	color: #565151;
-}
-
-.par-Agnes {
-	font-size: 18px;
-	color: #565151;
-}
-
-.par-Amelia {
-	text-align: right;
-	font-size: 18px;
 }
 
 section h2 {
@@ -91,7 +78,7 @@ nav .container .list-items {
 	gap: 46px;
 	font-weight: 400;
 	font-size: 18px;
-	color: white;
+	color: #fff;
 }
 
 .go-button {
@@ -141,16 +128,17 @@ header h1 {
 .header-promiss {
 	padding-bottom: 50px;
 	font-weight: 700;
-	font-size: 26px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 3px;
+	text-align: left;
 }
 
 .cta-button {
 	width: fit-content;
 	background-color: transparent;
 	border: 3px solid white;
-	color: white;
+	color: #fff;
 	padding: 14px 60px;
 	font-size: 18px;
 	letter-spacing: 5px;
@@ -159,7 +147,7 @@ header h1 {
 }
 
 .cta-button:hover {
-	background-color: white;
+	background-color: #fff;
 	color: black;
 	cursor: pointer;
 }
@@ -187,6 +175,15 @@ header h1 {
 	object-fit: cover;
 	aspect-ratio: 1/1;
 	padding: 50px;
+}
+
+.par-Agnes {
+	font-size: 18px;
+}
+
+.par-Amelia {
+	text-align: right;
+	font-size: 18px;
 }
 
 .name-Amelia {
@@ -228,31 +225,13 @@ div .offer-boxes {
 
 .offer-boxes p {
 	color: #405d78;
-}
-
-.learning {
+	font-size: 24px;
 	text-align: center;
 }
 
 .offer h2 {
 	color: ivory;
-	font-size: 30px;
-}
-
-footer {
-	width: 100%;
-	height: 70px;
-	background-color: black;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 30px;
-	color: #a0a5aa;
-}
-
-.footer-list {
-	display: flex;
-	gap: 40px;
+	font-size: 36px;
 }
 
 .mentoring {
@@ -276,6 +255,22 @@ footer {
 	position: absolute;
 	top: -15px;
 	left: -15px;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	background-color: #222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	color: #a0a5aa;
+}
+
+.footer-list {
+	display: flex;
+	gap: 40px;
 }
 
 footer .container {
