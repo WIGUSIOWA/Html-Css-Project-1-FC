@@ -64,7 +64,7 @@ nav .container {
 	align-items: center;
 }
 
-nav .container .brand {
+.brand {
 	display: flex;
 	color: #fff;
 	padding: 10px 0;
@@ -72,7 +72,7 @@ nav .container .brand {
 	font-size: 18px;
 }
 
-nav .container .list-items {
+nav .list-items {
 	padding: 30px;
 	display: flex;
 	gap: 46px;
@@ -152,7 +152,7 @@ header h1 {
 	cursor: pointer;
 }
 
-section.experts {
+main .experts {
 	margin-bottom: 60px;
 }
 
@@ -246,7 +246,23 @@ div .offer-boxes {
 	gap: 20px;
 }
 
-.learning-riding-job {
+.learning-riding {
+	display: flex;
+	flex-direction: column;
+	}
+
+.forest-riding {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.holidays {
+	display: flex;
+	flex-direction: column;
+}
+
+.job {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
