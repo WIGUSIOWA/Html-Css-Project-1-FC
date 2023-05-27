@@ -19,7 +19,7 @@
 		<title>Projekt zaliczeniowy 1 HTMLCSS</title>
 	</head>
 	<body>
-		<nav>
+		<nav class="navigation">
 			<div class="container">
 				<p class="brand">best horses ever company</p>
 				<ul class="list-items">
@@ -30,21 +30,25 @@
 			</div>
 		</nav>
 
-		<header>
-			<img src="images/westernhorses-min.jpg" alt="" />
+		<header class="header-part">
+			<img class="image" src="images/westernhorses-min.jpg" alt="" />
 			<div class="shadow">
 				<div class="container">
-					<h1>oferujemy najwyższej jakości usługi</h1>
+					<h1 class="header-main-heading">
+						oferujemy najwyższej jakości usługi
+					</h1>
 					<p class="header-promiss">spełniamy Twoje marzenia!</p>
-					<a href="#our-offer"><button class="cta-button">oferta</button></a>
+					<a href="#our-offer" class="cta-button">oferta</a>
 				</div>
 			</div>
 		</header>
 
-		<main>
+		<main class="main-part">
 			<section class="experts">
 				<div class="container">
-					<h2 id="dream-team">poznaj nasz dream-team:</h2>
+					<h2 id="dream-team" class="main-second-heading">
+						poznaj nasz dream-team:
+					</h2>
 
 					<ul class="experts-list">
 						<li class="expert">
@@ -53,7 +57,7 @@
 								alt="zdjęcie Agnieszki Dorosz"
 							/>
 							<div class="expert-info">
-								<h3>Agnieszka Dorosz</h3>
+								<h3 class="main-third-heading">Agnieszka Dorosz</h3>
 								<p class="par-Agnes">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Itaque, ratione eligendi quia pariatur dolore incidunt
@@ -71,7 +75,9 @@
 								alt="zdjęcie Amelii Dorosz"
 							/>
 							<div class="expert-info">
-								<h3 class="name-Amelia">Amelia Dorosz</h3>
+								<h3 class="name-Amelia" class="main-third-heading">
+									Amelia Dorosz
+								</h3>
 								<p class="par-Amelia">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
 									quo recusandae delectus expedita cupiditate est sunt veritatis
@@ -87,7 +93,7 @@
 
 			<section id="our-offer" class="offer">
 				<div class="container">
-					<h2>jak spełniamy Twoje marzenia?</h2>
+					<h2 class="main-second-heading">jak spełniamy Twoje marzenia?</h2>
 					<div class="offer-boxes">
 						<div class="mentoring">
 							<p>mentoring</p>
@@ -97,7 +103,7 @@
 						<div class="learning-riding">
 							<p>nauka</p>
 							<p>jazdy konnej</p>
-							<p>lub</p>
+							<p class="horse-riding-info">lub</p>
 							<p>doskonalenie</p>
 							<p>umiejętności</p>
 						</div>
@@ -119,7 +125,7 @@
 			</section>
 		</main>
 
-		<footer>
+		<footer class="footer-part">
 			<div class="container">
 				<p class="footer-paragraph">
 					best horses ever company - wszelkie prawa zastrzeżone 2023

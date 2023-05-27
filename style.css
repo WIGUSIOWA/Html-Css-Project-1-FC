@@ -11,38 +11,7 @@ body {
 	background-color: ivory;
 }
 
-.go-button {
-	color: white;
-}
-
-h1 {
-	font-size: 36px;
-	font-weight: 700;
-}
-
-h2 {
-	font-size: 36px;
-	font-weight: 700;
-	color: #565151;
-}
-
-h3 {
-	font-size: 18px;
-	font-weight: 700;
-	margin-bottom: 20px;
-}
-
-p {
-	font-size: 18px;
-	font-weight: 400;
-	color: #565151;
-}
-
-section h2 {
-	padding: 50px 0;
-}
-
-nav {
+.navigation {
 	width: 100%;
 	height: 70px;
 	background-color: goldenrod;
@@ -58,7 +27,7 @@ nav {
 	margin: 0 auto;
 }
 
-nav .container {
+.navigation .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -72,7 +41,7 @@ nav .container {
 	font-size: 18px;
 }
 
-nav .list-items {
+.navigation .list-items {
 	padding: 30px;
 	display: flex;
 	gap: 46px;
@@ -83,19 +52,21 @@ nav .list-items {
 
 .go-button {
 	cursor: pointer;
+	text-decoration: none;
+	color: white;
 }
 
 .disabled-button {
 	cursor: not-allowed;
 }
 
-header {
+.header-part {
 	width: 100%;
 	height: calc(100vh - 50px);
 	position: relative;
 }
 
-header img {
+.header-part .image {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -118,7 +89,7 @@ header img {
 	gap: 20px;
 }
 
-header h1 {
+.header-part .header-main-heading {
 	font-weight: 700;
 	font-size: 36px;
 	color: #fff;
@@ -142,6 +113,7 @@ header h1 {
 	padding: 14px 60px;
 	font-size: 18px;
 	letter-spacing: 5px;
+	text-decoration: none;
 	font-weight: 700;
 	transition: 1s;
 }
@@ -152,8 +124,20 @@ header h1 {
 	cursor: pointer;
 }
 
-main .experts {
+.main-part .experts {
 	margin-bottom: 60px;
+}
+
+.main-second-heading {
+	font-size: 36px;
+	font-weight: 700;
+	color: #565151;
+}
+
+.main-third-heading {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 20px;
 }
 
 .experts-list {
@@ -166,6 +150,16 @@ main .experts {
 	text-align: row;
 	align-items: center;
 	gap: 60px;
+}
+
+.experts .main-second-heading {
+	padding: 50px 0;
+}
+
+.offer .main-second-heading {
+	color: ivory;
+	font-size: 36px;
+	padding: 50px 0;
 }
 
 .reversed {
@@ -193,6 +187,14 @@ main .experts {
 
 .name-Amelia {
 	text-align: end;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.par-Agnes .par-Amelia {
+	font-size: 18px;
+	font-weight: 400;
+	color: #565151;
 }
 
 .offer {
@@ -234,11 +236,6 @@ div .offer-boxes {
 	text-align: center;
 }
 
-.offer h2 {
-	color: ivory;
-	font-size: 36px;
-}
-
 .mentoring {
 	position: relative;
 	display: flex;
@@ -249,7 +246,11 @@ div .offer-boxes {
 .learning-riding {
 	display: flex;
 	flex-direction: column;
-	}
+}
+
+.horse-riding-info {
+	margin: 10px 0;
+}
 
 .forest-riding {
 	display: flex;
@@ -278,7 +279,7 @@ div .offer-boxes {
 	left: -15px;
 }
 
-footer {
+.footer-part {
 	width: 100%;
 	height: 70px;
 	background-color: #222;
@@ -294,7 +295,7 @@ footer {
 	gap: 40px;
 }
 
-footer .container {
+.footer-part .container {
 	display: flex;
 	gap: 370px;
 }
